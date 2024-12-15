@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Emo Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            width: 300px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .game-container {
+            width: 300px;
+            height: 420px;
+            background-color: #000;
+            border: 1px solid #999;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .link-container {
+            margin-top: 10px;
+        }
+
+        .link-container img {
+            border: none;
+            display: inline-block;
+        }
+    </style>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <!-- Using Ruffle to load the SWF -->
+            <ruffle-player>
+                <embed 
+                    src="https://archive.org/download/thatvideogamesite-flash-games/Pocket_Emo.zip/1071-game.swf" 
+                    type="application/x-shockwave-flash" 
+                    width="300" 
+                    height="420">
+            </ruffle-player>
+        </div>
+        <div class="link-container">
+            <a href="http://www.mindistortion.tv">
+                <img src="http://www.mindistortion.tv/pocketemo/blank.gif" alt="Mind Distortion" width="150" height="15">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
