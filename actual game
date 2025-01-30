@@ -1,1 +1,18 @@
-https://archive.org/download/thatvideogamesite-flash-games/Pocket_Emo.zip/1071-game.swf
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWF Game Embed</title>
+</head>
+<body>
+    <h1>SWF Game: Pocket Emo</h1>
+    <object data="https://archive.org/download/thatvideogamesite-flash-games/Pocket_Emo.zip/1071-game.swf" type="application/x-shockwave-flash" width="800" height="600">
+        <param name="movie" value="https://archive.org/download/thatvideogamesite-flash-games/Pocket_Emo.zip/1071-game.swf">
+        <param name="quality" value="high">
+        <param name="wmode" value="transparent">
+        <param name="flashvars" value="">
+        Your browser does not support Flash.
+    </object>
+</body>
+</html>
